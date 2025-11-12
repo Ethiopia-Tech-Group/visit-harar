@@ -33,7 +33,7 @@ const HistoryDemo = () => {
       category: 'architecture',
       location: 'Old City Center',
       distance: '0.2km',
-      images: ['/hero4.jpg', 'jegol.jpg'],
+      images: ['/hero5.jpg', 'jegol.jpg'],
       duration: '6:15',
       description:
         'The ancient fortified wall surrounding Harar’s old city, featuring five original gates.',
@@ -51,7 +51,7 @@ const HistoryDemo = () => {
       category: 'cultural',
       location: 'Outside Erer Gate',
       distance: '0.5km',
-      images: ['hyena.webp', '/hyena2.jpg'],
+      images: ['hyena3.jpg', '/hyena2.jpg'],
       duration: '4:45',
       description:
         'A unique centuries-old tradition where hyena men feed wild hyenas every night.',

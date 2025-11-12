@@ -27,7 +27,7 @@ const AudioStoriesDemo = () => {
       category: "legends",
       narrator: "Elder Ahmed",
       plays: "1.2K",
-      image: "/list2.jpg",
+      image: "/wall.jpg",
       description: "Discover the ancient tradition of hyena feeding and the brave men who maintain this unique cultural practice."
     },
     {
@@ -38,7 +38,7 @@ const AudioStoriesDemo = () => {
       category: "history",
       narrator: "Dr. Selam",
       plays: "894",
-      image: "/list.jpg",
+      image: "/hero5.jpg",
       description: "Journey through time exploring the magnificent fortified walls that have protected Harar for centuries."
     },
     {
@@ -74,7 +74,7 @@ const AudioStoriesDemo = () => {
   ];
 
   const features = [
-    { icon: Languages, title: "Multilingual", description: "Stories in 4 local languages" },
+    { icon: Languages, title: "Multilingual", description: "Stories in more than 100 languages" },
     { icon: Headphones, title: "Immersive", description: "Professional audio quality" },
     { icon: User, title: "Local Narrators", description: "Authentic community voices" },
     { icon: Bookmark, title: "Save & Share", description: "Bookmark favorite stories" },

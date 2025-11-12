@@ -32,7 +32,7 @@ const MinimalHero = () => {
       <div
         className={`absolute inset-0 transition-opacity duration-1000 '}`}
         style={{
-          backgroundImage: "url('/hero4.jpg')",
+          backgroundImage: "url('/hero5.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -68,7 +68,7 @@ const MinimalHero = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="text-base sm:text-lg md:text-xl text-gray-200 font-light tracking-widest uppercase"
           >
-            City of Saints • UNESCO Heritage
+           The City of Loves • UNESCO Heritage
           </motion.p>
         </div>
 
