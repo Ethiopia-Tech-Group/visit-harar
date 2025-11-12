@@ -25,7 +25,7 @@ const AboutUsDemo = () => {
       id: 1,
       title: "Ancient Walls",
       description: "13th century heritage",
-      img: '/hero5.jpg'
+      img: '/hero5.JPG'
     },
     {
       id: 2,
@@ -43,7 +43,7 @@ const AboutUsDemo = () => {
       id: 4,
       title: "Global Access",
       description: "Smartphone accessible",
-      img: '/wall.jpg'
+      img: '/wall.JPG'
     }
   ];
 

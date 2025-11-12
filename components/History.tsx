@@ -33,7 +33,7 @@ const HistoryDemo = () => {
       category: 'architecture',
       location: 'Old City Center',
       distance: '0.2km',
-      images: ['/hero5.jpg', 'jegol.jpg'],
+      images: ['/hero5.JPG', 'jegol.jpg'],
       duration: '6:15',
       description:
         'The ancient fortified wall surrounding Harar’s old city, featuring five original gates.',

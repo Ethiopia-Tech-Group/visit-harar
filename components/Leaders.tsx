@@ -7,7 +7,7 @@ const LeadershipSection: React.FC = () => {
       name: 'H.E. Ordin Bedri',
       title: 'President of the Harari People\'s Regional State',
       bio: 'Leading the preservation and promotion of Harar\'s rich cultural heritage while fostering sustainable tourism development.',
-      image: '/president.jpg'
+      image: '/president.JPG'
     },
     {
       name: 'Sami Abdulwasi',

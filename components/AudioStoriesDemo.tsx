@@ -27,7 +27,7 @@ const AudioStoriesDemo = () => {
       category: "legends",
       narrator: "Elder Ahmed",
       plays: "1.2K",
-      image: "/wall.jpg",
+      image: "/wall.JPG",
       description: "Discover the ancient tradition of hyena feeding and the brave men who maintain this unique cultural practice."
     },
     {
@@ -130,7 +130,7 @@ const AudioStoriesDemo = () => {
         <p className="text-gray-600 text-sm sm:text-base">Immersive voice-guided storytelling experience</p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-10 items-center w-full max-w-6xl">
+      <div className="flex flex-col md:flex-row gap-10 items-center justify-center w-full max-w-6xl">
         {/* Phone Frame */}
         <div className="relative bg-black rounded-[32px] shadow-2xl border-[8px] border-gray-800 w-[90%] max-w-[320px] h-[550px] sm:h-[600px] overflow-hidden">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-24 h-5 bg-gray-800 rounded-b-2xl z-20"></div>
