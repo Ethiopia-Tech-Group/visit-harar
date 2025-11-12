@@ -68,7 +68,7 @@ const AboutUsDemo = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center p-2 my-8">
+    <div id='about' className="min-h-screen bg-white flex items-center justify-center p-2 my-8">
       <div className="w-full max-w-7xl">
         {/* Compact Header */}
         <div className="text-center mb-6">

@@ -12,13 +12,13 @@ const Header = () => {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Interactive Map', href: '/map' },
-    { name: 'Audio Stories', href: '/stories' },
-    { name: 'Events', href: '/events' },
-    { name: 'Learn Mode', href: '/learn' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Plan Visit', href: '/plan' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'About Us', href: '#about' },
+    { name: 'Demo', href: '#demo' },
+    { name: 'Audio Stories', href: '#stories' },
+    // { name: 'Learn Mode', href: '/learn' },
+    // { name: 'Gallery', href: '/gallery' },
+    // { name: 'Plan Visit', href: '/plan' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   useEffect(() => {

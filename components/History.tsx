@@ -109,7 +109,7 @@ const HistoryDemo = () => {
   }, [isPlaying, selectedItem]);
 
   return (
-    <div className='min-h-screen bg-gradient-to-br from-slate-50 to-slate-100  p-4 '>
+    <div id='demo' className='min-h-screen bg-gradient-to-br from-slate-50 to-slate-100  p-4 '>
         <h1 className='text-center w-full text-4xl font-black text-slate-800 py-6'>Live Demo </h1>
     <div className=" flex items-center justify-center">
       <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-center gap-12">

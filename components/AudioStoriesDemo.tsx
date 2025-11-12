@@ -190,8 +190,8 @@ const AudioStoriesDemo = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-6 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
-      <div className="text-center mb-8">
+    <div id='stories' className="flex flex-col items-center justify-center p-6 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+      <div  className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-800 mb-2">Audio Stories Feature</h2>
         <p className="text-gray-600">Immersive voice-guided storytelling experience</p>
       </div>
