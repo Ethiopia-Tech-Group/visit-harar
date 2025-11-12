@@ -1,0 +1,197 @@
+/* app/globals.css */
+@import 'tailwindcss';
+
+:root {
+  /* Color Palette */
+  --gold: #FFAE02;
+  --deep-green: #1a3a2f;
+  --earth: #a86a3d;
+  --earth-light: #bf8c5a;
+  --earth-dark: #8a5528;
+  
+  /* Typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Georgia', 'Times New Roman', serif;
+}
+
+/* Custom utility classes using CSS variables */
+@utility bg-gold {
+  background-color: var(--gold);
+}
+
+@utility text-gold {
+  color: var(--gold);
+}
+
+@utility border-gold {
+  border-color: var(--gold);
+}
+
+@utility bg-deep-green {
+  background-color: var(--deep-green);
+}
+
+@utility text-deep-green {
+  color: var(--deep-green);
+}
+
+@utility border-deep-green {
+  border-color: var(--deep-green);
+}
+
+@utility bg-earth {
+  background-color: var(--earth);
+}
+
+@utility text-earth {
+  color: var(--earth);
+}
+
+@utility border-earth {
+  border-color: var(--earth);
+}
+
+@utility bg-earth-light {
+  background-color: var(--earth-light);
+}
+
+@utility bg-earth-dark {
+  background-color: var(--earth-dark);
+}
+
+/* Font families */
+@utility font-serif {
+  font-family: var(--font-serif);
+}
+
+@utility font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--earth);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* Animation classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Custom gradient backgrounds */
+.bg-gradient-harar {
+  background: linear-gradient(135deg, var(--deep-green) 0%, var(--earth-dark) 100%);
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(135deg, var(--gold) 0%, #ffc107 100%);
+}
+@layer base {
+  :root {
+    --gold: #FFAE02;
+    --deep-green: #013220;
+    --earth-light: #E8E3D1;
+    --earth-dark: #4A3F35;
+    --sky-light: #F5F5F0;
+  }
+}
+.scrollbar-none {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+
+/* Add to app/globals.css */
+
+/* Custom animations for the hero */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 174, 2, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(255, 174, 2, 0.6); }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+.glow-animation {
+  animation: glow 3s ease-in-out infinite;
+}
+
+/* Text gradient animation */
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Geometric pattern backgrounds */
+.bg-geometric-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, var(--gold) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, var(--earth) 2px, transparent 2px);
+  background-size: 50px 50px;
+}
+
+/* Minimal scrollbar */
+.minimal-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.minimal-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 2px;
+}
