@@ -1,4 +1,5 @@
 // app/page.tsx
+'use client'
 import AudioStoriesDemo from './components/AudioStoriesDemo';
 import Hero from './components/Hero';
 import HistoryDemo from './components/History';
