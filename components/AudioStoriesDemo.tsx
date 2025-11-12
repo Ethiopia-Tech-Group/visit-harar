@@ -38,7 +38,7 @@ const AudioStoriesDemo = () => {
       category: "history",
       narrator: "Dr. Selam",
       plays: "894",
-      image: "/hero5.jpg",
+      image: "/hero5.JPG",
       description: "Journey through time exploring the magnificent fortified walls that have protected Harar for centuries."
     },
     {
