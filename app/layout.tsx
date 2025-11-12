@@ -20,19 +20,24 @@ const georgia = Poppins({
 export const metadata: Metadata = {
   title: {
     default: 'Visit Harar - City of Saints | UNESCO World Heritage Site',
-    template: '%s | Visit Harar'
+    template: '%s | Visit Harar',
   },
-  description: 'Discover Harar\'s rich cultural heritage, history, and traditions through immersive storytelling and digital tourism',
+  description: "Discover Harar's rich cultural heritage, history, and traditions through immersive storytelling and digital tourism",
   keywords: ['Harar', 'Ethiopia', 'UNESCO', 'tourism', 'cultural heritage', 'hyena feeding', 'Jugol Wall'],
   authors: [{ name: 'Ethiopia Tech Group' }],
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
     title: 'Visit Harar - City of Saints',
-    description: 'Explore the culture, history, and heart of Ethiopia\'s most iconic city',
+    description: "Explore the culture, history, and heart of Ethiopia's most iconic city",
     type: 'website',
     locale: 'en_US',
   },
+};
+
+// Export viewport separately
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 interface RootLayoutProps {
