@@ -41,13 +41,13 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <MapPin className={`h-8 w-8 transition-colors duration-300 ${
+            <MapPin className={`md:h-8 md:w-8 w-6 transition-colors duration-300 ${
               isScrolled ? 'text-yellow-500' : 'text-white'
             }`} />
-            <span className={`text-2xl font-serif font-bold transition-colors duration-300 ${
+            <span className={`text-sm md:text-xl font-serif font-bold transition-colors duration-300 ${
               isScrolled ? 'text-green-800' : 'text-white'
             }`}>
-              Visit Harar
+              The first tourism application in Ethiopia
             </span>
           </Link>
 
