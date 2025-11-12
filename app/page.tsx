@@ -2,7 +2,6 @@
 import AudioStoriesDemo from './components/AudioStoriesDemo';
 import Hero from './components/Hero';
 import HistoryDemo from './components/History';
-import InteractiveMap from './components/InteractiveMap';
 // import AudioStorytelling from './components/AudioStorytelling/AudioStorytelling';
 // import FestivalCalendar from './components/FestivalCalendar/FestivalCalendar';
 // import Leadership from './components/Leadership/Leadership';
