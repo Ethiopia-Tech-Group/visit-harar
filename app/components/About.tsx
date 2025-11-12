@@ -92,82 +92,68 @@ const AboutUsDemo = () => {
         {/* Main Content - Compact Side by Side */}
         <div className="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-40">
           {/* Left Side - Compact Investment Text */}
-          <div className="flex-1 max-w-xl">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-              className="bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20 p-4 text-gray-800"
-            >
-              {/* Compact Investment Text */}
-              <div className="space-y-3">
-                <div className="flex items-center gap-2 mb-2">
-                  <Star className="text-amber-400" size={16} />
-                  <h3 className="text-lg font-bold">Ethiopia's First Digital Platform</h3>
-                </div>
-                
-                <div className="space-y-2 text-slate-800 text-sm leading-relaxed">
-                  <p>
-                    <span className="text-amber-400 font-medium">Free digital cultural education</span> preserving oral traditions while empowering communities.
-                  </p>
-                  <p>
-                    Experience Harar through <span className="text-amber-400">local storytellers</span> with immersive learning beyond traditional tourism.
-                  </p>
-                  <p>
-                    Accessible heritage drives <span className="text-amber-400">inclusive tourism</span> and establishes Harar as a global innovation hub.
-                  </p>
-                </div>
+         
+<div className="flex-1 max-w-xl">
+  <motion.div
+    initial={{ opacity: 0, x: -30 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.6 }}
+    className="bg-gradient-to-br from-white via-white/80 to-amber-50 rounded-2xl shadow-lg border border-amber-100 p-6 text-gray-800"
+  >
+    {/* Title */}
+    <div className="mb-4">
+      <div className="flex items-center gap-2">
+        <div className="w-10 h-[2px] bg-amber-400"></div>
+        <span className="uppercase text-xs font-semibold tracking-wide text-amber-600">
+          About Us
+        </span>
+      </div>
+      <h3 className="text-2xl font-extrabold mt-2 text-gray-900">
+        Ethiopia Tech Group
+      </h3>
+      <p className="text-sm text-slate-500 mt-1">
+        Pioneering digital transformation for Ethiopia’s cultural heritage.
+      </p>
+    </div>
 
-                {/* Compact Stats */}
-                <div className="grid grid-cols-2 gap-2 mt-4">
-                  {stats.map((stat, index) => (
-                    <motion.div
-                      key={stat.label}
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.3 + index * 0.1 }}
-                      className="text-center p-2 bg-black/5 rounded-lg border border-black/10 hover:bg-black/10 transition-colors"
-                    >
-                      <stat.icon className="text-amber-400 mx-auto mb-1" size={16} />
-                      <div className="text-amber-400 font-bold text-sm">{stat.value}</div>
-                      <div className="text-slate-900 text-xs">{stat.label}</div>
-                    </motion.div>
-                  ))}
-                </div>
+    {/* Description */}
+    <div className="space-y-3 text-sm leading-relaxed text-slate-700">
+      <p>
+        <span className="text-amber-500 font-medium">Ethiopia Tech Group (ETG)</span> 
+        is a visionary company using technology to bridge history and innovation. 
+        We focus on digital storytelling, cultural preservation, and empowering 
+        local communities through creative tech solutions.
+      </p>
+      <p>
+        Our project <span className="text-amber-500 font-medium">Visit Harar</span> 
+        reimagines tourism through immersive mobile experiences — turning Harar’s 
+        ancient stories, heritage, and architecture into a living digital archive.
+      </p>
+      <p>
+        With a mission to inspire, educate, and connect, ETG transforms Ethiopia’s 
+        cultural legacy into a globally accessible, future-ready experience.
+      </p>
+    </div>
 
-                {/* Compact Contact */}
-                {/* <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.6 }}
-                  className="mt-3 pt-3 border-t border-black/20"
-                >
-                  <div className="flex items-center gap-2 mb-2">
-                    <Heart size={14} className="text-amber-400" />
-                    <h4 className="font-semibold text-amber-400 text-sm">Contact</h4>
-                  </div>
-                  <div className="space-y-1 text-slate-800 text-xs">
-                    <div className="flex items-center justify-between">
-                      <div className="font-medium">Yahya Mohammed</div>
-                      <div className="text-amber-400 text-xs">Founder & CEO</div>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <MapPin size={12} className="text-amber-400" />
-                      Ethiopia Tech Group, Bole
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <Mail size={12} className="text-amber-400" />
-                      yahyaabdela0@gmail.com
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <Phone size={12} className="text-amber-400" />
-                      0987818783
-                    </div>
-                  </div>
-                </motion.div> */}
-              </div>
-            </motion.div>
-          </div>
+    {/* Highlights Row */}
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
+      {stats.map((stat, index) => (
+        <motion.div
+          key={stat.label}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 + index * 0.1 }}
+          className="bg-white shadow-sm hover:shadow-md transition-all rounded-xl border border-amber-100 p-3 text-center"
+        >
+          <stat.icon className="text-amber-500 mx-auto mb-1" size={18} />
+          <div className="font-bold text-sm text-gray-900">{stat.value}</div>
+          <div className="text-[11px] text-gray-500">{stat.label}</div>
+        </motion.div>
+      ))}
+    </div>
+  </motion.div>
+</div>
+
 
           {/* Right Side - Compact Phone Frame */}
           <div className="flex-shrink-0">
