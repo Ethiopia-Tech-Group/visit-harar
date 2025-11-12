@@ -51,7 +51,7 @@ const HistoryDemo = () => {
       category: 'cultural',
       location: 'Outside Erer Gate',
       distance: '0.5km',
-      images: ['hyena3.jpg', '/hyena2.jpg'],
+      images: ['hyena3.JPG', '/hyena2.jpg'],
       duration: '4:45',
       description:
         'A unique centuries-old tradition where hyena men feed wild hyenas every night.',

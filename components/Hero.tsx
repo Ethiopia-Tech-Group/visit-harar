@@ -32,7 +32,7 @@ const MinimalHero = () => {
       <div
         className={`absolute inset-0 transition-opacity duration-1000 '}`}
         style={{
-          backgroundImage: "url('/hero5.jpg')",
+          backgroundImage: "url('/hero5.JPG')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
