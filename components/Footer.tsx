@@ -13,6 +13,8 @@ import {
   Heart,
   ArrowUp
 } from 'lucide-react';
+import { BsTelegram, BsTiktok } from 'react-icons/bs';
+import { CgWebsite } from 'react-icons/cg';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -41,10 +43,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Youtube, href: '#', label: 'YouTube' }
+    { icon: BsTiktok, href: 'https://www.tiktok.com/@ethiopia.tech.group', label: 'TikTok' },
+    { icon: BsTelegram, href: 'https://t.me/EthiopiaTechGroup', label: 'Telegram' },
+    { icon: CgWebsite, href: 'https://etg.et/', label: 'Website' },
+    { icon: Instagram, href: '#', label: 'Instagram' }
   ];
 
   return (
