@@ -27,7 +27,7 @@ const AudioStoriesDemo = () => {
       category: "legends",
       narrator: "Elder Ahmed",
       plays: "1.2K",
-      image: "/wall.JPG",
+      image: "/hyena3.JPG",
       description: "Discover the ancient tradition of hyena feeding and the brave men who maintain this unique cultural practice."
     },
     {

@@ -119,7 +119,7 @@ const AboutUsDemo = () => {
               {/* Description */}
               <div className="space-y-3 text-sm leading-relaxed text-slate-700">
                 <p>
-                  <span className="text-amber-500 font-medium">Ethiopia Tech Group (ETG)</span>
+                  <span className="text-amber-500 font-medium">Ethiopia Tech Group (ETG) </span>
                   is a visionary company using technology to bridge history and innovation.
                   We focus on digital storytelling, cultural preservation, and empowering
                   local communities through creative tech solutions.
